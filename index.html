@@ -1,9 +1,8 @@
 <html>
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
 
 <link href="style.css" rel="stylesheet" type="text/css">
 <head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <header>     
 <nav>
 <ul>
@@ -13,7 +12,7 @@
 </nav>
 </header>
 </head>
-
+<main>
 
 <body class="image-box">
 
@@ -24,7 +23,9 @@
 
 
      <form action="url">
-    <input type:"text" style="width: 584px;"/>
+    <input type:"text" id="text1" style="width: 584px;"/>
+    <i class="material-icons" id="search">search</i>
+    <i class="material-icons" id="keyboard">keyboard</i>
     <input type="submit" class="buttons"  value="Google Search">
     <input type="submit" class="buttons" value="I'm Feeling Lucky" >
     <P> Made available by Nathan in: <a class="down-box" href="#">English</a> <a class="down-box" href="#">Portuguese</a></P>
@@ -32,20 +33,23 @@
      </form>
     
 </body>
-
-<footer>
+</main>
+<footer class="footer-container">
 <div>
-      <nav class="footer-container">
+     
             <ul>
                   <li class="left-footer"><a class="footer-text" href="#">About</a></li>
                   <li class="left-footer"><a class="footer-text" href="#">Advertising</a></li>
                   <li class="left-footer"><a class="footer-text" href="#">Business</a></li>
                   <li class="left-footer"><a class="footer-text" href="#">How Search works</a></li>
-                  <li class="right-footer"><a class="footer-text" href="#">Privacy</a></li>
-                  <li class="right-footer"><a class="footer-text" href="#">Terms</a></li>
+                  <div class="right-footer-container">
                   <li class="right-footer"><a class="footer-text" href="#">Settings</a></li>
+                  <li class="right-footer"><a class="footer-text" href="#">Terms</a></li>
+                  <li class="right-footer"><a class="footer-text" href="#">Privacy</a></li>
+                  
+            </div>
             </ul>
-      </nav>
+
 </div>
 </footer>
 
