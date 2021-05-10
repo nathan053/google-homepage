@@ -6,7 +6,6 @@ header::after{
     content: '';
     display: table;
     clear: both;
-
 }
 
 main{
@@ -38,7 +37,6 @@ input{
     margin-top: 28px;
 }
 
-
 p{
     position: static;
     margin-top: 38px;
@@ -50,8 +48,6 @@ p{
     color: #222;
 }
 
-
-
 footer{
     display:grid;
     background-color:#f2f2f2;
@@ -59,29 +55,20 @@ footer{
     bottom: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
-
 }
-
-
 
   a{
     text-decoration: none;
-    color: rgb(44, 44, 44);
-   
+    color: rgb(44, 44, 44); 
   }
 
   a:visited {
     text-decoration: none;
-    
   }
 
   a:hover{
     text-decoration: underline;
-
-
 }
-
-
 
 .nav-control{
     display: inline;
@@ -97,28 +84,21 @@ footer{
     color: rgb(44, 44, 44);
 }
 
-
-
 .nav-container{
 margin-right: 95px;
-
-
 }
 
 .grid-image{
    position: absolute;
    bottom:583px;
    right: 4%;
-
 }
 
 .photo-image{
     position: absolute;
     bottom:573px;
     right: 1%;
-
 }
-
 
 .down-box{
     color: darkblue;
@@ -137,7 +117,6 @@ background-color: #f2f2f2;
 padding: 8px 16px;
 border-radius: 4px;
 border: ridge 1px transparent;
-
 }
 
 .buttons:hover{
@@ -145,9 +124,7 @@ border: ridge 1px transparent;
     border-radius: 4px;
     border-style:ridge;
     border-color: rgba(80, 76, 76, 0.678);
-    padding: 8px 16px;
-    
-    
+    padding: 8px 16px;        
 }
 
 #text1{
@@ -155,7 +132,7 @@ padding: 10px;
 padding-left: 40px;
 padding-right: 40px;
 box-sizing: 5px;
-border: 1px ;
+border: 1px solid rgba(128, 128, 128, 0.336) ;
 border-radius: 20px;
 box-shadow:0px 0px 1px 1px rgba(0,0,0,0.06);
 background-image: url(/Images/searchbar.png), url(/Images/keyboard.png);
@@ -164,44 +141,39 @@ background-size: 35px;
 background-repeat:no-repeat,no-repeat;
 background-position: 11px -3px,533px;
 outline: none;
-
 }
 
 #text1:focus{
+
 padding: 10px;
 padding-left: 40px;
 padding-right: 40px;
-border: 2px solid rgba(136, 136, 136, 0.233);
-
+border: 1px solid rgba(128, 128, 128, 0.336) ;
+box-shadow: 0px 2px 2px 2px rgba(43, 42, 42, 0.212);
 }
 
 #text1:hover{
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
-    border: 2px solid rgba(136, 136, 136, 0.233);
-
-    }
+    border: 1px solid rgba(128, 128, 128, 0.336) ;
+    box-shadow: 0px 2px 2px 2px rgba(43, 42, 42, 0.212);;
+}
 
 .left-footer{
     display: inline;
     float: left;
     margin-right: 18px;
-
 }
 
 .right-footer{
     display: inline;
     float: right;
     margin-right: 25px;
-   
-    
-
 }
 
 .right-footer-container{
     margin-right: 50px;
-
 }
 
 .footer-text{
